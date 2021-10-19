@@ -5,35 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malaika | Inicio</title>
+
+    <!--Tipo de fuentes extraidas de google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap" rel="stylesheet">
+    
+    <!--Vinculacion de CSS a HTML (Forma optima y correcta mediante el sig codigo)-->
     <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
 </head>
-<body>
-    <header>
-        
-        <img src="Imagenes/WhatsApp Image 2021-09-15 at 14.49.26.jpeg" height="250"  alt= "Imagen no disponible">
-        <nav>
-            <ul>
-                <li><a href="index.html"> Inicio</a></li>
-                <li><a href="productos.html"> Productos</a></li>
-                <li><a href="Login.html"> Login</a></li>
-                <li><a href="Contacto.html"> Contacto</a></li>
+<body class="body">
+    <header class="cabecera">
+        <div class="contenedor">
+        <img class="logo" src="Imagenes/WhatsApp Image 2021-09-15 at 14.49.26.jpeg" height="250"  alt= "Imagen no disponible">
+        <nav class="navegacion">
+            <ul class="ul">
+                <li><a class="enlace" href="index.html"> Inicio</a></li>
+                <li><a class="enlace" href="productos.html"> Productos</a></li>
+                <li><a class="enlace" href="Login.html"> Login</a></li>
+                <li><a class="enlace" href="Contacto.html"> Contacto</a></li>
             </ul>
         </nav>
-        
+    </div>
     </header>
     <main>
-        <section>
-            <video src="./Videos/WhatsApp Video 2021-09-15 at 16.14.43.mp4" width="900" height="600" autoplay muted poster="./Imagenes/WhatsApp Image 2021-09-15 at 14.49.26.jpeg"></video>
-
-
+        <section class="hero">
+         
         </section>
+    
+        <h1 class="titulo__elige"> ELIGE, PAGA Y RECIBE TU PEDIDO SIN MOVERTE DE CASA.</h1>
+    
+        <section>
+        <div class="muestra">
+            <img class="imagen_1" src="./Imagenes/WhatsApp Image 2021-10-15 at 09.04.55.jpeg" width="200" height="300">
+            <img class="imagen_2" src="./Imagenes/WhatsApp Image 2021-10-18 at 13.48.27.jpeg" width="300" height="300">
+            <video class="video_institucional" src="./Videos/WhatsApp Video 2021-09-15 at 16.14.43.mp4" width="800" height="500" autoplay muted poster="./Imagenes/WhatsApp Image 2021-09-15 at 14.49.26.jpeg"></video>
+        </div>
         
-        
+    </section>   
     </main>
 
     <footer>
-        <h2> Malaika Showroom</h2><br>
+        <section class="malaika">
+        <h2 class="malaika_show"> Malaika Showroom</h2><br>
         <p>WhatsApp<a href="https://web.whatsapp.com/"> 2974289172</a></p><br>
+        </section>
         <h3> Seguínos en</h3><br>
 
         <ul>
