@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malaika | Login</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Malaika | Login</title>
+    
+        <!--Tipo de fuentes extraidas de google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap" rel="stylesheet">
+        
+        <!--Vinculacion de CSS a HTML (Forma optima y correcta mediante el sig codigo)-->
+        <link rel="stylesheet" href="css/estilos.css">
+        
+        <!--Boostrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+    
+        <!--JamIcons-->
+        <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    
+    </head>
 <body>
-          <header class="cabecera">
+    <header class="cabecera">
             <div class="contenedor">
             <img class="logo" src="Imagenes/WhatsApp Image 2021-09-15 at 14.49.26.jpeg" height="250"  alt= "Imagen no disponible">
             <nav class="navegacion">
@@ -21,11 +35,10 @@
                 </ul>
             </nav>
         </div>
-        </header>
+    </header>
         
     <main>
-        
-        <div>
+        <div class="main_login">
             <h2> Registrate </h2>
             <h4> Por favor registrate, para completar tu compra!</h4>
         </div>
@@ -50,21 +63,47 @@
                 </section>
             </fieldset>
     </main>
-    <footer>
+    <footer class="footer">
         <section class="malaika">
-            <h2 class="malaika_show"> Malaika Showroom</h2><br>
-            <p>WhatsApp<a href="https://web.whatsapp.com/"> 2974289172</a></p><br>
-            </section>
-        <h3> Seguínos en</h3><br>
+        <h2 class="malaika_show"> Malaika Showroom</h2><br>
+        <a class="whatsapp" href=""><span class="jam jam-whatsapp"></span></a>
+        </section>
 
-        <ul>
-            <li><a href="https://instagram.com/malaikashowroomcr?utm_medium=copy_link" target="_blank"> Instagram</a> </li>
-            <li><a href="https://www.facebook.com/" target="_blank"> facebook</a></li>
-        </ul>
+        <section class="caja_footer">
+        <div class="seguinos">
+            <h4 class="titulo_seguinos"> Seguínos en</h4><br>
+            <a class="enlace_footer" href="https://instagram.com/malaikashowroomcr?utm_medium=copy_link" target="_blank"><span class="jam jam-instagram"></span></a><br>
+            <a class="enlace_footer" href="https://www.facebook.com/" target="_blank"><span class="jam jam-facebook-square"></span></a>
+        </div>
+
         <div>
+            <h4 class="titulo_seguinos"> Métodos de pago</h4>
+            <div class="logos_tarjetas">
+            <img src="./Imagenes/logovisa.png"width="40" height="30">
+            <img src="./Imagenes/logomaster.png"width="40" height="30"><br>
+            <img src="./Imagenes/logomercadopago.png" width="40" height="30">
+        </div>
+        </div>
+
+        <div>
+            <h4 class="titulo_seguinos"> Contactanos </h4>
+            <div class="contactanos">
+            <span class="jam jam-map-marker"></span><p>Alem N° 266</p>
+            </div>
+            <div class="contactanos">
+            <span class="jam jam-viber-circle"></span><p> 2974289172</p>
+            </div>
+            <div class="contactanos">
+            <span class="jam jam-envelope"></span><p> malaika.showroom@gmail.com</p>
+            </div>
+        </div>
+        </section>
+
+        <div class="derechos">
             <p>Derechos de autor. 2021. Herrera Sabrina Tel. 297154289172</p><br>
         </div>
 
+    
     </footer>
 </body>
 </html>

@@ -18,6 +18,9 @@
     width: 100%;
     height: 120px;
     background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .logo{
@@ -122,18 +125,25 @@
 
 
 
-footer {
+.footer {
 
-    background-color: black;
+    background-color:black;
+    height: 360px;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-size: 20;
+    font-weight: 400;
+}
+
+.enlace_footer{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 .malaika{
     display:flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 .malaika_show{
@@ -142,4 +152,64 @@ footer {
     padding: 16px;
     font-weight: 100;
 
+}
+
+.caja_footer{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+
+.titulo_seguinos{
+    
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+
+.contactanos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-weight: 100;
+}
+
+.logos_tarjetas{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whatsapp{
+    
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 1000;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+.derechos{
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 15px;
+
+}
+
+/*ESTILOS DE PAGINA LOGIN*/
+
+.main_login{
+
+    background-color: burlywood;
 }

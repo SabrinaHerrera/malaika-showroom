@@ -13,7 +13,12 @@
     
     <!--Vinculacion de CSS a HTML (Forma optima y correcta mediante el sig codigo)-->
     <link rel="stylesheet" href="css/estilos.css">
+    
+    <!--Boostrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
+    <!--JamIcons-->
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 
 </head>
@@ -42,27 +47,53 @@
         <div class="muestra">
             <img class="imagen_1" src="./Imagenes/WhatsApp Image 2021-10-15 at 09.04.55.jpeg" width="200" height="300">
             <img class="imagen_2" src="./Imagenes/WhatsApp Image 2021-10-18 at 13.48.27.jpeg" width="300" height="300">
-            <video class="video_institucional" src="./Videos/WhatsApp Video 2021-09-15 at 16.14.43.mp4" width="800" height="500" autoplay muted poster="./Imagenes/WhatsApp Image 2021-09-15 at 14.49.26.jpeg"></video>
+            <video class="video_institucional" src="./Videos/WhatsApp Video 2021-09-15 at 16.14.43.mp4" loop width="800" height="500" autoplay muted poster="./Imagenes/WhatsApp Image 2021-09-15 at 14.49.26.jpeg"></video>
         </div>
         
     </section>   
     </main>
 
-    <footer>
+    <footer class="footer">
         <section class="malaika">
         <h2 class="malaika_show"> Malaika Showroom</h2><br>
-        <p>WhatsApp<a href="https://web.whatsapp.com/"> 2974289172</a></p><br>
+        <a class="whatsapp" href=""><span class="jam jam-whatsapp"></span></a>
         </section>
-        <h3> Seguínos en</h3><br>
 
-        <ul>
-            <li><a href="https://instagram.com/malaikashowroomcr?utm_medium=copy_link" target="_blank"> Instagram</a> </li>
-            <li><a href="https://www.facebook.com/" target="_blank"> facebook</a></li>
-        </ul>
+        <section class="caja_footer">
+        <div class="seguinos">
+            <h4 class="titulo_seguinos"> Seguínos en</h4><br>
+            <a class="enlace_footer" href="https://instagram.com/malaikashowroomcr?utm_medium=copy_link" target="_blank"><span class="jam jam-instagram"></span></a><br>
+            <a class="enlace_footer" href="https://www.facebook.com/" target="_blank"><span class="jam jam-facebook-square"></span></a>
+        </div>
+
         <div>
+            <h4 class="titulo_seguinos"> Métodos de pago</h4>
+            <div class="logos_tarjetas">
+            <img src="./Imagenes/logovisa.png"width="40" height="30">
+            <img src="./Imagenes/logomaster.png"width="40" height="30"><br>
+            <img src="./Imagenes/logomercadopago.png" width="40" height="30">
+        </div>
+        </div>
+
+        <div>
+            <h4 class="titulo_seguinos"> Contactanos </h4>
+            <div class="contactanos">
+            <span class="jam jam-map-marker"></span><p>Alem N° 266</p>
+            </div>
+            <div class="contactanos">
+            <span class="jam jam-viber-circle"></span><p> 2974289172</p>
+            </div>
+            <div class="contactanos">
+            <span class="jam jam-envelope"></span><p> malaika.showroom@gmail.com</p>
+            </div>
+        </div>
+        </section>
+
+        <div class="derechos">
             <p>Derechos de autor. 2021. Herrera Sabrina Tel. 297154289172</p><br>
         </div>
 
+    
     </footer>
 </body>
 </html>
